@@ -157,7 +157,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-[Add your contact information or project maintainer details]
+For questions, suggestions, or collaborations, please contact:
+
+**Pete Bieda**  
+Email: pete.bieda@gmail.com
 
 ---
 

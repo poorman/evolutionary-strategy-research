@@ -7,3 +7,4 @@ pytest
 ray==2.6.0
 black
 flake8
+streamlit

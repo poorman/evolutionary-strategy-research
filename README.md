@@ -62,6 +62,38 @@ python src/app.py --mode evaluate --candidate outputs/hof/best_candidate.pkl
 - `--population`: Population size for evolution (default: 50)
 - `--candidate`: Path to candidate file for evaluation (required for evaluate mode)
 
+## 🖥️ GUI Interface
+
+The project includes a web-based GUI built with Streamlit for interactive demonstration:
+
+### Launch the GUI
+
+```bash
+# Install streamlit (if not already installed)
+pip install streamlit
+
+# Run the GUI
+streamlit run src/gui.py
+
+# Or use the convenience script
+./run_gui.sh
+```
+
+The GUI will open in your browser at `http://localhost:8501` and provides:
+
+- **Data Visualization**: Interactive charts of synthetic price data
+- **Evolution Controls**: Configure and run evolution with real-time progress
+- **Results Analysis**: Visualize fitness metrics, convergence, and performance statistics
+- **Interactive Dashboards**: Explore evolution results with charts and metrics
+
+### GUI Features
+
+- 📊 Real-time data visualization
+- 🧬 Interactive evolution configuration
+- 📈 Performance metrics and charts
+- 📋 Detailed evolution logs
+- 🎯 Fitness tracking over generations
+
 ## 🐳 Docker Usage
 
 ### Build the Docker Image

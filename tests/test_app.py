@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 def test_app_help():
     """Test that app shows help message"""
     result = subprocess.run(
-        ['python', 'src/app.py', '--help'],
+        ['python3', 'src/app.py', '--help'],
         capture_output=True,
         text=True,
         cwd=os.path.join(os.path.dirname(__file__), '..')
@@ -24,7 +24,7 @@ def test_app_help():
 def test_app_evolve_mode():
     """Test that evolve mode can be called"""
     result = subprocess.run(
-        ['python', 'src/app.py', '--mode', 'evolve', '--generations', '1', '--population', '5'],
+        ['python3', 'src/app.py', '--mode', 'evolve', '--generations', '1', '--population', '5'],
         capture_output=True,
         text=True,
         cwd=os.path.join(os.path.dirname(__file__), '..')
@@ -38,7 +38,7 @@ def test_app_evolve_mode():
 def test_app_evaluate_mode_requires_candidate():
     """Test that evaluate mode requires candidate parameter"""
     result = subprocess.run(
-        ['python', 'src/app.py', '--mode', 'evaluate'],
+        ['python3', 'src/app.py', '--mode', 'evaluate'],
         capture_output=True,
         text=True,
         cwd=os.path.join(os.path.dirname(__file__), '..')

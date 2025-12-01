@@ -94,9 +94,3 @@ jobs:
 ```
 
 ---
-
-# Notes
-
-- Replace `<your-username>` in README badge URL with your GitHub username.
-- The Docker build/test ensures that the Dockerfile is valid and the app can run inside a container.
-- CI now runs tests, linting, and optional Docker build/test on every push and PR.

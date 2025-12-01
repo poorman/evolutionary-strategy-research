@@ -157,10 +157,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-For questions, suggestions, or collaborations, please contact:
+For questions, suggestions, or collaborations, please visit:
 
-**Pete Bieda**  
-Email: pete.bieda@gmail.com
+**https://pbieda.com/contact**
 
 ---
 

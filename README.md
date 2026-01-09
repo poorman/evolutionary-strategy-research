@@ -9,6 +9,7 @@ A research framework for evolving trading strategies using genetic programming a
 - **Latency-Aware Backtesting**: Backtesting primitives that account for execution latency
 - **Clear Promotion Path**: Structured workflow from evolution → out-of-sample testing → stress testing → candidate pool
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ecdefd0c-88a0-4cf5-bab8-5ceef0e35c25" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/452146d9-5e4c-4ce5-8fbb-511de3a6b07b" />
 
 ## ✨ Features
 

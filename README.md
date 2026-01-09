@@ -8,6 +8,7 @@ A research framework for evolving trading strategies using genetic programming a
 - **Reproducible Experiments**: Versioned data and environment capture for consistent results
 - **Latency-Aware Backtesting**: Backtesting primitives that account for execution latency
 - **Clear Promotion Path**: Structured workflow from evolution → out-of-sample testing → stress testing → candidate pool
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ecdefd0c-88a0-4cf5-bab8-5ceef0e35c25" />
 
 ## ✨ Features
 
